@@ -1,0 +1,10 @@
+# Budget Windows Pros - robots.txt
+User-agent: *
+Allow: /
+Disallow:
+
+# Sitemaps
+Sitemap: https://www.budgetwindowpros.com/sitemap.xml
+
+# LLMs.txt
+# See https://www.budgetwindowpros.com/llms.txt for AI-readable business information
