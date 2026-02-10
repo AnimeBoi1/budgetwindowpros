@@ -173,10 +173,10 @@ quoteForm.addEventListener('submit', async (e) => {
       formSuccess.classList.add('active');
       quoteForm.reset();
     } else {
-      alert('Something went wrong. Please try again or call us at (800) 555-1234.');
+      alert('Something went wrong. Please try again or call us at (801) 201-1418.');
     }
   } catch (error) {
-    alert('Could not send your request. Please try again or call us at (800) 555-1234.');
+    alert('Could not send your request. Please try again or call us at (801) 201-1418.');
   } finally {
     submitBtn.textContent = originalText;
     submitBtn.disabled = false;

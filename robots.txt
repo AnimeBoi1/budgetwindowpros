@@ -1,4 +1,4 @@
-# Budget Windows Pros - robots.txt
+# Budget Window Pros - robots.txt
 User-agent: *
 Allow: /
 Disallow:
