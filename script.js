@@ -647,20 +647,3 @@ if (chatBubble && chatTrigger) {
   }
 }
 
-// ===== 12. FLOATING INPUT LABELS =====
-document.addEventListener('DOMContentLoaded', () => {
-  // Add float-label class to form groups that have placeholders
-  document.querySelectorAll('.quote-form .form-group').forEach(group => {
-    const input = group.querySelector('input, textarea');
-    if (input && input.placeholder) {
-      group.classList.add('float-label');
-      // Move label after input for CSS sibling selector
-      const label = group.querySelector('label');
-      if (label && input) {
-        input.after(label);
-        // Use a space as placeholder for :placeholder-shown detection
-        if (!input.value) input.setAttribute('placeholder', ' ');
-      }
-    }
-  });
-});
